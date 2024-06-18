@@ -3,7 +3,7 @@ tags:
   - ControlTheory
 ---
 ## System description
----
+
 - ### Nonlinear system
 $$\dot{x} = f(x) + g(x)u$$
 - ### Control Barrier Function (CBF)
@@ -17,8 +17,8 @@ $$\dot{x} = f(x) + g(x)u$$
 $$\sup_{u} [ \frac{dh(x)}{dt} = \frac{\partial h}{\partial x}f(x) +   \frac{\partial h}{\partial x}g(x)u \geq -\alpha(h(x))]$$
 
 ## Controller design
----
-![[스크린샷 2024-06-06 오전 10.50.23.png]]
+
+![basic_system](./fig/basic_figure_0.png)
 - ### Issues
 	- $h(x)$ 가 CBF를 만족하는 $u$를 찾기가 어려움
 	- $u$를 찾아도 안전성을 만족할 뿐이지 시스템의 제어하는 원래 목적인 안정성 확보, 원하는 성능 보장은 확보 할 수 없음
@@ -27,17 +27,12 @@ $$\sup_{u} [ \frac{dh(x)}{dt} = \frac{\partial h}{\partial x}f(x) +   \frac{\par
 $$u_{opt} = \arg\min_{u} || u - u_{des}||^2 ~~\text{s.t.} ~~\frac{dh(x)}{dt} = \frac{\partial h}{\partial x}f(x) +   \frac{\partial h}{\partial x}g(x)u \geq -\alpha(h(x))$$
 - 여기서 $\alpha(\cdot)$ 함수는 보통 $\gamma h(x)$ $(\gamma >0)$사용
 - $\gamma$ 가 크면 $h(x)$의 변화율의 허용 범위가 커져서 $u$를 구하기는 쉽지만 $x$가 안전 영역의 경계까지 갈 수 있어서 실제 시스템에서는 안전을 보장 못 할 수 있음
-- $\gamma$가 작으면 안전을 보장할 수 있는 $u$를 구할 수 있지만 QP의 해의 범위가 좁아져서 해를 못 구할 수도 있음   
-## Discussion
----
+- $\gamma$가 작으면 안전을 보장할 수 있는 $u$를 구할 수 있지만 QP의 해의 범위가 좁아져서 해를 못 구할 수도 있음   
+
+## Discussion
 - **$\gamma$ 값을 어떻게 적절하게 구할 것 인가?**
 -  **$\alpha(\cdot)$ 함수를 다른 함수로 사용 가능 한가?**
 - **실제 시스템에 적용 할 때 feasible solution 을 적절한 시간안에 구할 수 있는가?**
 
-## 관련노트
----
-- [[Control Barrier Function 공부]]
-
-## 참고문헌
----
+## Reference
 - Ferraguti, F.; Landi, C.T.; Singletary, A.; Lin, H.-C.; Ames, A.; Secchi, C.; Bonfè, M. Safety and Efficiency in Robotics: The Control Barrier Functions Approach. _IEEE Robot. Automat. Mag._ **2022**, _29_, 139–151, doi:[10.1109/MRA.2022.3174699](https://doi.org/10.1109/MRA.2022.3174699).
