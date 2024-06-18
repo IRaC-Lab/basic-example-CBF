@@ -21,8 +21,8 @@ $$\dot{x}(t) = u(t)$$
 
 - [Matlab 사용해서 simulation](./Matlab에서%20CBF%20구현.md)
 - Source code
-	- [Script](./src/CBF_for_2Dof.mlx)
-	- [Simulink](./src/CBF_for_2Dof.slx)
+	- [Script](../src/CBF_for_2Dof.mlx)
+	- [Simulink](../src/CBF_for_2Dof.slx)
 
 ## Reference
 - Ferraguti, F.; Landi, C.T.; Singletary, A.; Lin, H.-C.; Ames, A.; Secchi, C.; Bonfè, M. Safety and Efficiency in Robotics: The Control Barrier Functions Approach. _IEEE Robot. Automat. Mag._ **2022**, _29_, 139–151, doi:[10.1109/MRA.2022.3174699](https://doi.org/10.1109/MRA.2022.3174699).

@@ -21,8 +21,8 @@ $$M \ddot{p}(t) = u(t)$$
 
 - [Matlab 사용해서 simulation](./Matlab에서%20CBF%20구현.md)
 - Source code
-	- [Script](./src/CBF_for_DoubleInteg.mlx)
-	- [Simulink](./src/CBF_for_DoubleInteg.slx) 
+	- [Script](../src/CBF_for_DoubleInteg.mlx)
+	- [Simulink](../src/CBF_for_DoubleInteg.slx) 
 
 ## 참고문헌
 

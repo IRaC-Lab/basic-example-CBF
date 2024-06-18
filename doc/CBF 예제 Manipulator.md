@@ -26,8 +26,8 @@ $$\dot{q}(t) = u(t)$$
 
 - [Matlab 사용해서 simulation](./Matlab에서%20CBF%20구현.md)
 - Source code
-	- [Script](./src/CBF_for_manipulator.mlx)
-	- [Simulink](./src/CBF_for_Manipulator.slx)
+	- [Script](../src/CBF_for_manipulator.mlx)
+	- [Simulink](../src/CBF_for_Manipulator.slx)
 - $\gamma$ 가 클수록 $h$의 변화율의 범위가 크기 때문에 $h$가 거의 0에 가까운 값을 가질 수 있고 이 때문에 obstacle에 더 가깝게 로봇이 움직임
 
 

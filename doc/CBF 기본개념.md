@@ -18,7 +18,7 @@ $$\sup_{u} [ \frac{dh(x)}{dt} = \frac{\partial h}{\partial x}f(x) +   \frac{\par
 
 ## Controller design
 
-![basic_system](./fig/basic_figure_0.png)
+![basic_system](../fig/basic_figure_0.png)
 - ### Issues
 	- $h(x)$ 가 CBF를 만족하는 $u$를 찾기가 어려움
 	- $u$를 찾아도 안전성을 만족할 뿐이지 시스템의 제어하는 원래 목적인 안정성 확보, 원하는 성능 보장은 확보 할 수 없음
