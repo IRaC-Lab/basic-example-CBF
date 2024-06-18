@@ -24,5 +24,16 @@ $$\dot{x}(t) = u(t)$$
 	- [Script](../src/CBF_for_2Dof.mlx)
 	- [Simulink](../src/CBF_for_2Dof.slx)
 
+## Simulation Result
+
+### Tracking with Constraint
+![Trajectory](../fig/2dof_figure_0.png)
+
+### The values of the CBF
+![CBF](../fig/2dof_figure_1.png)
+
+### Actual and desired input
+![Input](../fig/2dof_figure_2.png)
+
 ## Reference
 - Ferraguti, F.; Landi, C.T.; Singletary, A.; Lin, H.-C.; Ames, A.; Secchi, C.; Bonfè, M. Safety and Efficiency in Robotics: The Control Barrier Functions Approach. _IEEE Robot. Automat. Mag._ **2022**, _29_, 139–151, doi:[10.1109/MRA.2022.3174699](https://doi.org/10.1109/MRA.2022.3174699).

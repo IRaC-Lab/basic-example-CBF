@@ -36,6 +36,16 @@ $$\dot{q}(t) = u(t)=K(q,t)$$
 	- [Simulink](../src/CBF_for_KinematicControl_UR3.slx)
 - $\gamma$ 가 클수록 $h$의 변화율의 범위가 크기 때문에 $h$가 거의 0에 가까운 값을 가질 수 있고 이 때문에 obstacle에 더 가깝게 로봇이 움직임
 
+## Simulation Result
+
+### Tracking with Constraint
+![Trajectory](../fig/Kinemtic_figure_1.png)
+
+### The values of the CBF
+![CBF](../fig/Kinemtic_figure_3.png)
+
+### Actual and desired position of wrist
+![Input](../fig/Kinemtic_figure_2.png)
 
 ## 참고문헌
 
