@@ -20,9 +20,14 @@ $$M \ddot{p}(t) = u(t)$$
 ## Simulation
 
 - [Matlab 사용해서 simulation](./Matlab에서%20CBF%20구현.md)
-- Source code
-	- [Script](../src/CBF_for_DoubleInteg.mlx)
-	- [Simulink](../src/CBF_for_DoubleInteg.slx) 
+	- Source code
+		- [Script](../src/CBF_for_DoubleInteg.mlx)
+		- [Simulink](../src/CBF_for_DoubleInteg.slx)
+- Matlab with cvxpy
+	- Source code
+		- [Matlab Script](../src/DI_cbf_cvxpy.mlx)
+		- [Simulink](../src/DI_cbf_cvxpy.slx)
+		- [Python code](../src/DI_cbf_cvxpy.py)
 
 ## Simulation Result
 
