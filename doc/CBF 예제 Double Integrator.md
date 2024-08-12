@@ -23,7 +23,7 @@ $$M \ddot{p}(t) = u(t)$$
 	- Source code
 		- [Script](../src/CBF_for_DoubleInteg.mlx)
 		- [Simulink](../src/CBF_for_DoubleInteg.slx)
-- Matlab with cvxpy
+- [Matlab with cvxpy](./Matlab%20with%20cvxpy.md)
 	- Source code
 		- [Matlab Script](../src/DI_cbf_cvxpy.mlx)
 		- [Simulink](../src/DI_cbf_cvxpy.slx)
