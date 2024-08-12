@@ -11,4 +11,4 @@
 ## Development Environment
 - Matlab
 - Python
-- [CVXPY](basic-example-CBF/src/DI_cbf_cvxpy.slx)
+- [CVXPY](https://www.cvxpy.org/index.html)
