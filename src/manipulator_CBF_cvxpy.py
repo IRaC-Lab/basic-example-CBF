@@ -54,10 +54,10 @@ def main():
     u_des = [1, 0, 0, 0, 0, 0]
     gamma = 10
 
-    u_act, hx = manipulator_cbf(q, p, J, u_des, gamma)
+    u_act = manipulator_cbf(q, p, J, u_des, gamma)
 
-    print(f"actual u: {u_act}, CBF: {hx}")
-
+    print(f"actual u: {u_act}")
+          
 if __name__ == "__main__":
 	main()
 
