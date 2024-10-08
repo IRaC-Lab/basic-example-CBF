@@ -14,8 +14,9 @@ $$\dot{q}(t) = u(t)=K(q,t)$$
 	- Choose $\dot{e}(t) = \lambda e(t)$, then $e(t) = \exp(\lambda t)e(0)$
 	- Controller: $u(t) = \dot{q}(t) = J_y(q)^T (J_y(q)J_y(q)^T)^{-1} (\dot{x}_d(t) - \lambda e(t))$
 - State equation으로 모델링
-	- $\dot{x} = f(x) + g(x)u$
-	- $f(x) = 0$ , $g(x) = J_y(q)$
+	- Forward kinematics가 완벽하다는 가정하에 $q$에 대한 시스템으로 표현
+	- $\dot q = u$
+	- $f(x) = 0$ , $g(x) = I$
 - 안전 영역
 	- Obstacle은 구이고 중심은 $x_{obs}$ 반지름은 $R$
 	- 로봇 wrist 부분에도 일정 공간의 여유를 두어서 충돌 방지 $R_w$
@@ -26,7 +27,7 @@ $$\dot{q}(t) = u(t)=K(q,t)$$
 ## CBF design
 
 - Obstacle을 바깥영역에서 $h(x) \geq 0$되도록 설정
--  $h(p) = ||x - x_{obs}||^2 - (R + R_w)^2$
+-  $h(x) = h(y(q)) = h(q) = ||x - x_{obs}||^2 - (R + R_w)^2$
 
 ## Simulation
 
