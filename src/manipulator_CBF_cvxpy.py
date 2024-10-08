@@ -5,14 +5,14 @@ import numpy as np
 
 def manipulator_cbf(q, p, J, u_des, gamma):
     # Parameters
-    R = 0.1
-    R_w = 0.1
-    p_obs = np.array([0, 0.4, 1])
+    R = 0.1 # Radious of the obstacle
+    R_w = 0.1 # Radious of the wrist of robot
+    p_obs = np.array([0, 0.4, 1]) # Position of the obstacle
 
-    q = np.array(q)
-    p = np.array(p)
-    J = np.array(J)
-    u_des = np.array(u_des)
+    q = np.array(q) # Angle of the each joint
+    p = np.array(p) # Position of the end-effector
+    J = np.array(J) # Jacobian matrix
+    u_des = np.array(u_des) # desired angular velocities
 
     # Functions
     fx = np.zeros((6,1))
